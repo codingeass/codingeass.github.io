@@ -36,3 +36,32 @@ body{
 .first_section #nav_first a {
 	color: #afc7a4;
 }
+
+
+#img_profile{
+	display: block;
+	float: left;
+	position: absolute;
+	top:15%;
+	width: 30%;
+	height: 85%;
+	border-right:3px solid white;
+
+} 
+
+#img_profile img{
+	width:61%;
+	position: absolute;
+	top: 5%;
+	left: 18%;
+	-webkit-border-radius:100%;
+   -webkit-radial-gradient(white,grey);
+  -webkit-radial-gradient: red,white;
+  color:rgba(255,255,255,0.7);
+  -webkit-transition:-webkit-border-radius 1s,opacity 1s,border 1s,padding 1s;
+  -moz-border-radius:100%;
+   -moz-radial-gradient(white,grey);
+  -moz-radial-gradient: red,white;
+  -moz-transition:-moz-border-radius 1s,opacity 1s,border 1s,padding 1s;
+
+}
