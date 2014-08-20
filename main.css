@@ -73,3 +73,12 @@ body{
 	width:50px;
 	margin: -4px;
 }
+
+
+.first_section #text_side {
+	position: absolute;
+	display: block;
+	top: 15%;
+	width:60%;
+	left:40%;
+}
