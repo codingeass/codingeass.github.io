@@ -37,7 +37,6 @@ body{
 	color: #afc7a4;
 }
 
-
 #img_profile{
 	display: block;
 	float: left;
@@ -66,7 +65,6 @@ body{
 
 }
 
-
 #img_profile #social_link img{
 	position: relative;
 	top:320px;
@@ -74,11 +72,28 @@ body{
 	margin: -4px;
 }
 
-
 .first_section #text_side {
 	position: absolute;
 	display: block;
 	top: 15%;
 	width:60%;
 	left:40%;
+}
+
+.first_section #text_side #quotes {
+	position: relative;
+	z-index: 4;
+	top: 20px;
+	width:81%;
+	height: 10%;
+	background-color:black;
+	padding:20px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+}
+
+.first_section #text_side #quotes #author{
+	position: relative;
+	width: 50%;
+	right:-400px;
 }
