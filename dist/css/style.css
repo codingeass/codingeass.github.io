@@ -35,6 +35,7 @@ body{
 #img_profile #profile_pic{
 	width:61%;
 	-webkit-border-radius:100%;
+	border-radius: 50%;
    -webkit-radial-gradient(white,grey);
   -webkit-radial-gradient: red,white;
   color:rgba(255,255,255,0.7);
@@ -48,11 +49,12 @@ body{
 #img_profile #social_link img{
 	width:50px;
 	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .first_section #text_side{
 	padding-right: 2em;
-	display: none;
+	display: block;
 }
 
 .first_section #text_side #quotes {	
