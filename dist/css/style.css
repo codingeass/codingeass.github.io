@@ -84,11 +84,11 @@ body{
 	overflow-y: auto;
 }
 
-.first_section #content_dir #resurgence a:hover{
+.first_section #content_dir #projdescription a:hover{
 	text-decoration: none;
 }
 
-.first_section #content_dir #resurgence .thumbnail{
+.first_section #content_dir #projdescription .thumbnail{
 	display: block;
 	width: 50%;
 	overflow-y: auto;

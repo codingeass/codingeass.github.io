@@ -11,7 +11,7 @@ function content_change(page){
 	if(xmlhttp)
 	{
 		
-		xmlhttp.open("GET",'dist/views/'+page+'.html');
+		xmlhttp.open("GET",'dist/views/'+page+'.html?'+Math.random());
 		xmlhttp.send();
 		xmlhttp.onreadystatechange=function()
 		{
