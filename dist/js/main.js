@@ -29,7 +29,7 @@ window.onload =function(){
 
 	var hash = window.location.hash;
 	if(hash=="")
-	content_change('about');
+	content_change('project');
 	else
 	{
 		if(pages.indexOf(hash.slice(1))>-1)
