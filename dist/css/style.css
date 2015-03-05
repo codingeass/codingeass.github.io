@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic|Share+Tech+Mono|Oxygen+Mono);
+body { 
+  font-family: 'Quattrocento Sans', sans-serif;
+}
 *{
 	padding: 0px;
 	margin: 0px;
@@ -5,6 +9,7 @@
 
 body{
 	margin: 0.2%;
+	cursor: default;
 }
 
 .first_section{	
@@ -35,6 +40,7 @@ body{
 #img_profile #profile_pic{
 	width:58%;
 	-webkit-border-radius:100%;
+	border: 3px solid #a8a6a8;
 	border-radius: 50%;
    -webkit-radial-gradient(white,grey);
   -webkit-radial-gradient: red,white;
@@ -120,6 +126,14 @@ margin-bottom: 14px;
 background-color: #484848;
 border: 1px solid #7e7d7e;
 border-radius: 4px;
+}
+
+.first_section #content_dir #about_me{
+	font-size: 21px;
+}
+
+.first_section #content_dir #about_me a:hover{
+	text-decoration: none;
 }
 
 /* slider attractive*/

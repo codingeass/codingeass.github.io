@@ -1,4 +1,4 @@
-var pages=['project','resurgence','interaction','titiksha'];
+var pages=['project','resurgence','interaction','titiksha','about'];
 function content_change(page){
 	window.location.hash=page;
 	var xmlhttp=false;
@@ -29,7 +29,7 @@ window.onload =function(){
 
 	var hash = window.location.hash;
 	if(hash=="")
-	content_change('project');
+	content_change('about');
 	else
 	{
 		if(pages.indexOf(hash.slice(1))>-1)
