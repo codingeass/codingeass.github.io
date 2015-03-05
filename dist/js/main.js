@@ -41,3 +41,13 @@ window.onload =function(){
 	}	
 
 }
+
+function active_css(obj)
+{
+	var allLi=document.getElementById("navbar").getElementsByTagName("li");
+	for(var i=0;i<allLi.length;i++)
+	{
+		allLi[i].className="";	
+	}
+	obj.className="active";
+}

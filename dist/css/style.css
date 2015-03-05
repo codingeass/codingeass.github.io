@@ -20,18 +20,25 @@ body{
 }
 
 .first_section #nav_first {
-	padding-top: 0.3em;	
-	padding-bottom: 3em;
+	margin-top: 0.3em;	
+	margin-bottom: 3em;
+	background: transparent;
+	background-color: none;
+	border: none;
+	cursor: pointer;
+}
+
+.first_section #nav_first #navbar li:hover{
+	background-color: #e7e7e7;
 }
 
 .first_section #nav_first a{
-	display: inline-block;
 	font-size: 23px;
 	color: #afc7a4;
 }
 
 #img_profile{
-	height: 84%;
+	/*height: 84%;*/
 	border-right:3px solid white;
 	padding-right: 0px;
 	padding-bottom: 0px;
@@ -101,10 +108,18 @@ body{
 	cursor: pointer;
 }
 
+
 .first_section #content_dir{
 	display: block;
 	height: 84%;
 	overflow-y: auto;
+}
+
+@media only screen and (max-width:996px) {
+  .first_section #content_dir{
+    height: auto;
+    overflow-y:visible; 
+  }
 }
 
 .first_section #content_dir #projdescription a:hover{
