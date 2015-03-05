@@ -1,4 +1,6 @@
+var pages=['project','resurgence','interaction','titiksha'];
 function content_change(page){
+	window.location.hash=page;
 	var xmlhttp=false;
 	if (window.XMLHttpRequest)
 	{// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -24,5 +26,18 @@ function content_change(page){
 }
 
 window.onload =function(){
+
+	var hash = window.location.hash;
+	if(hash=="")
 	content_change('project');
+	else
+	{
+		if(pages.indexOf(hash.slice(1))>-1)
+		content_change(hash.slice(1));
+		else
+		{
+			content_change('project');
+		}
+	}	
+
 }
