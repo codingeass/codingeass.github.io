@@ -33,7 +33,7 @@ body{
 } 
 
 #img_profile #profile_pic{
-	width:61%;
+	width:58%;
 	-webkit-border-radius:100%;
 	border-radius: 50%;
    -webkit-radial-gradient(white,grey);
@@ -44,6 +44,14 @@ body{
    -moz-radial-gradient(white,grey);
   -moz-radial-gradient: red,white;
   -moz-transition:-moz-border-radius 1s,opacity 1s,border 1s,padding 1s;
+}
+
+#img_profile #aboutme_short{
+	margin-top:0.3em;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid white; 
 }
 
 #img_profile #social_link img{
