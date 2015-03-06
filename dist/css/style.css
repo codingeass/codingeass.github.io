@@ -18,6 +18,10 @@ body{
     user-drag: none;
 }
 
+img{
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;	
+}
 
 .first_section{	
   background-color:#43474b;
