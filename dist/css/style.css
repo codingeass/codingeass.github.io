@@ -118,7 +118,10 @@ body{
 @media only screen and (max-width:996px) {
   .first_section #content_dir{
     height: auto;
-    overflow-y:visible; 
+    overflow-y:visible;
+    margin-top:2em; 
+    padding-top:2em; 
+    border-top: 2px solid white; 
   }
 }
 
