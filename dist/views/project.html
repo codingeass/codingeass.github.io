@@ -1,3 +1,4 @@
+
 <div id="projects">
 				 <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
           <!--
@@ -6,10 +7,10 @@
                 <li data-target="#carousel" data-slide-to="1"></li>
             </ol>
         -->
-            <div class="carousel-inner">
+            <div class="carousel-inner" id="slider_remove_id">
                 <div class="item active">
                 <div class="row">
-          		<div class="col-sm-6 col-md-4">
+          		<div class="col-sm-4 col-md-4">
 	                <div class="thumbnail project_icon">
 	                  <img alt="resurgence" src="dist/img/resurgence.jpg"  id="project_img" onclick="content_change('resurgence')">
 	                  <div class="caption">
@@ -18,7 +19,7 @@
 	                  </div>
 	                </div>
             	</div>
-            	<div class="col-sm-6 col-md-4">
+            	<div class="col-sm-4 col-md-4">
 	                <div class="thumbnail project_icon">
 	                  <img alt="titiksha" src="dist/img/titiksha.jpg"  id="project_img" onclick="content_change('titiksha')">
 	                  <div class="caption">
@@ -27,7 +28,7 @@
 	                  </div>
 	                </div>
             	</div>
-	            <div class="col-sm-6 col-md-4">
+	            <div class="col-sm-4 col-md-4">
 	                <div class="thumbnail project_icon">
 	                  <img alt="interaction" src="dist/img/interaction.jpg"  id="project_img" onclick="content_change('interaction')">
 	                  <div class="caption">
@@ -40,7 +41,7 @@
                 </div>
                 <div class="item">
                 <div class="row">
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-4 col-md-4">
 				        <div class="thumbnail project_icon">
 				          <img alt="resurgence" src="dist/img/inventory.jpg" data-holder-rendered="true" id="project_img">
 				          <div class="caption">
@@ -49,7 +50,7 @@
 				          </div>
 				        </div>
 				    </div>
-				    <div class="col-sm-6 col-md-4">
+				    <div class="col-sm-4 col-md-4">
 				        <div class="thumbnail project_icon">
 				          <img alt="Personal Encyclopedia" src="dist/img/personal.png" data-holder-rendered="true" id="project_img">
 				          <div class="caption">
@@ -58,7 +59,7 @@
 				          </div>
 				        </div>
 				    </div>
-				    <div class="col-sm-6 col-md-4">
+				    <div class="col-sm-4 col-md-4">
 				        <div class="thumbnail project_icon">
 				          <img alt="monet" src="dist/img/monet.png" data-holder-rendered="true" id="project_img">
 				          <div class="caption">
@@ -75,13 +76,16 @@
                 </div>
             -->
             </div>
-            <a href="#carousel" class="left carousel-control" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a href="#carousel" class="right carousel-control" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
+            <div id="arrow">
+	            <a href="#carousel" class="left carousel-control" data-slide="prev">
+	                <span class="glyphicon glyphicon-chevron-left"></span>
+	            </a>
+	            <a href="#carousel" class="right carousel-control" data-slide="next">
+	                <span class="glyphicon glyphicon-chevron-right"></span>
+	            </a>
+        	</div>
         </div>
 
         
-			</div>
+</div>
+

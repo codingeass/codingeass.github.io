@@ -11,8 +11,7 @@ function content_change(page){
 		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 	}
 	if(xmlhttp)
-	{
-		
+	{		
 		xmlhttp.open("GET",'dist/views/'+page+'.html?'+Math.random());
 		xmlhttp.send();
 		xmlhttp.onreadystatechange=function()
@@ -20,13 +19,13 @@ function content_change(page){
 			if(xmlhttp.readyState==4 && xmlhttp.status==200)
 			{
 				document.getElementById('content_dir').innerHTML=xmlhttp.responseText;
-			}				
-		}				
+				window.setInterval(removeCarousel(),2000);
+			}
+		}					
 	}
 }
 
 window.onload =function(){
-
 	var hash = window.location.hash;
 	if(hash=="")
 	content_change('project');
@@ -50,4 +49,16 @@ function active_css(obj)
 		allLi[i].className="";	
 	}
 	obj.className="active";
+}
+
+function removeCarousel()
+{
+	
+	if(screen.availWidth<996)
+	{
+		//alert(document.getElementById('projects').innerHTML);
+		//var proj=document.getElementById('content_dir').getElementById('projects');
+		document.getElementById('slider_remove_id').className="";	
+		document.getElementById('arrow').innerHTML="";
+	}
 }
