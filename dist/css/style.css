@@ -10,6 +10,7 @@ body {
 body{
 	margin: 0.2%;
 	cursor: default;
+	/* For Opera and <= IE9, we need to add unselectable="on" attribute onto each element */
 	-moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
     -webkit-user-select: none;
     -ms-user-select: none; /* From IE10 only */
@@ -119,6 +120,21 @@ img{
 	cursor: pointer;
 }
 
+/*
+.first_section #loader{
+	position: inherit;
+	background: transparent;
+	margin-left:45%;
+	margin-bottom: 0px;
+	top: -230px;
+	margin-right: auto;
+	display: ;
+	z-index: 999;	
+}
+.first_section #loader img{
+	height:70px;  
+}
+*/
 
 .first_section #content_dir{
 	display: block;
