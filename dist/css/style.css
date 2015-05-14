@@ -111,7 +111,7 @@ img{
 	margin-top: 5%;
 }
 .first_section #projects #project_img{
-	height: 150px; 
+	max-height: 170px; 
 	display: block;
 	cursor: pointer;
 }
