@@ -95,6 +95,8 @@ img{
 	padding:20px;
 	-webkit-border-radius:15px;
 	-moz-border-radius:15px;
+	border-radius:15px;
+	font-size: 16px;
 }
 
 .first_section #text_side #quotes #author{
@@ -181,6 +183,9 @@ border-radius: 4px;
 	text-decoration: none;
 }
 
+#content_dir .dl-horizontal dt{
+	font-size: 16px;
+}
 /* slider attractive*/
 
 ::-webkit-scrollbar {
