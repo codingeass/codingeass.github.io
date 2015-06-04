@@ -63,11 +63,3 @@ function removeCarousel()
 	}
 }
 
-function meta_social_tag(title,image,url,description){
-	var meta='<meta property="og:title" content="'+title+'" /><meta property="og:type" content="article" /> \
-        <meta property="og:image" content="'+image+'" /> \
-        <meta property="og:url" content="'+url+'" /> \
-        <meta property="og:description" content="'+description+'" />';
-	document.getElementsByTagName('head')[0].innerHTML=document.getElementsByTagName('head')[0].innerHTML+meta; 
-}
-meta_social_tag("Amandeep Gupta","http://codingeass.github.io/dist/img/profile.png","http://codingeass.github.io","Portfolio ,Web Developer | Software Developer | Programmer");
